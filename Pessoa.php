@@ -1,7 +1,15 @@
 <?php
- 
-class Pessoa {
 
+class Pessoa {
+	protected $nome;
+
+
+	public function andar(){
+		echo 'Andando...';
+	}
 }
+
+$obj = new Pessoa;
+$obj->andar();
 
  ?>
