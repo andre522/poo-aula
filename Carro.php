@@ -6,10 +6,12 @@ class Carro {
 	protected $motor;
 
 	public function andarCarro(){
-		echo 'Carro andando';
+		echo 'Carro andando'."\n";
 	}
 }
 $carro = new Carro;
 $carro->andarCarro();
+
+var_dump($carro);
 
  ?>
